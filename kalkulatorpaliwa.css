@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    height: 70vh;
+   
+    background-image: url('samochody.jpg');
+    background-repeat: no-repeat;
+    
+    
+}
+.borderform {
+    opacity:0.7;
+    background-color: yellow;
+    display: block;
+    padding: 1rem 0 .25rem;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 2rem auto;
+    border: 2px solid white;
+    max-width: 500px;
+}
+input, textarea {
+    display: block;
+    max-width: 500px;
+    min-width: 98.5%;
+    border: 2px solid black;
+}
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    border: 2px solid black;
+    background: white;
+    text-transform: uppercase;
+}
+.car {
+    max-width: 100%
+    max-height: 500px;
+    
+    background-size: cover;
+    height: 100%;
+
+}
